@@ -8,6 +8,8 @@ body, html {
   /*start of reusable*/
   .center{
     text-align: center;
+    margin-block-end: auto;
+    
   }
   /*end of reusable*/
   
@@ -59,25 +61,45 @@ body, html {
     }  
   
    
-    
+    .title{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: teal;
+        padding-top: 30px;
+        padding-right: 38px;
+    }
   
       .container-flex{
         display: flex;
         flex-direction: row;
         background-color: yellow;
-        padding: 10px;
-        justify-content: center;
+        justify-content: space-around;
+        
       }
   .process-flex-box{
-    margin: 10px;
-      height: 200px;
-      width: 400px;
-      background-color: tomato;
+    margin: 40px;
+    padding: 20px;
+      height: 260px;
+      width: 260px;
+      border-radius: 100%;
+      background-color: white;
+      box-shadow: 0 0 0 2pt #073B3A; 
+    justify-content: space-around;
+      
   
   }
+  #container-flex-image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
   
       footer{
           display: center;
           text-align: center;
           background-color:#7B9081;
           color: white;
+          padding: 10px;
