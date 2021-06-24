@@ -72,18 +72,20 @@ body, html {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-color: teal;
+        background-color white;
         padding-top: 30px;
         padding-right: 38px;
+        color: #073B39;
     }
   
       .container-flex{
         display: flex;
         flex-direction: row;
-        background-color: yellow;
+        background-color: white;
         justify-content: space-around;
         color: #073B39;
-        margin: 10px;
+        margin-bottom: 80px;
+        
       }
   .process-flex-box{
     margin: 40px;
@@ -101,11 +103,13 @@ body, html {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    
  
   }
  
   .projects-flex-box{
       position: absolute;
+     
   }
 
   
