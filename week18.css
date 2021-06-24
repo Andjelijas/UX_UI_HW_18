@@ -4,11 +4,17 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  
+  .section-title{
+    padding: 100px;
+    color: #073B39;
+    
+  }
+
   /*start of reusable*/
   .center{
     text-align: center;
     margin-block-end: auto;
+    
     
   }
   /*end of reusable*/
@@ -76,7 +82,8 @@ body, html {
         flex-direction: row;
         background-color: yellow;
         justify-content: space-around;
-        
+        color: #073B39;
+        margin: 10px;
       }
   .process-flex-box{
     margin: 40px;
@@ -93,10 +100,21 @@ body, html {
   #container-flex-image {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding-top: 30px;
+ 
   }
  
+  .projects-flex-box{
+      position: absolute;
+  }
+
   
+ 
+    
+
+
+
+
       footer{
           display: center;
           text-align: center;
